@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>.centralizar {
+				margin:0;
+				padding:0;
+				width: 100%;
+				height: 100vh;
+				background: #8786ad;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				margin:50px; 
+				margin-top:150px
+			}
+
+			button {padding: 10px;
+					margin:10px;
+					background: rgb(219, 210, 245);
+					border: none;
+					}
+
+	</style>
+
+</head>
+<body class='centralizar'> 
+
+		<button onclick="document.getElementById('cidade').src='cidadeNoite.png'"> deixe escurecer rs </button>
+
+		<img src='cidadeDia.png' id="cidade"></img>
+   
+		<button onclick="document.getElementById('cidade').src='cidadeDia.png'"> deixe o sol aparecer rs</button>
+
+
+</body>
+</html>
